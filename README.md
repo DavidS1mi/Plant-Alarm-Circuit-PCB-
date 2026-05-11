@@ -20,12 +20,11 @@ The circuit relies on the interaction between a moisture sensor (two metal probe
 
 
 ## Repository Contents
-* **`/Capture CIS`**: Contains the raw Cadence OrCAD schematic database (`.dsn`) and project files.
-* **`/PCB designer`**: Contains the final Allegro board layout file (`.brd`).
+* **`/capture cis`**: Contains the raw Cadence OrCAD schematic database (`.dsn`) and project files.
+* **`/PROIECT.brd`**: Contains the final Allegro board layout file (`.brd`).
 * **`/CEM-1606`**: Custom library files (symbol and footprints) for the magnetic buzzer.
 * **`/Gerbers`**: Manufacturing outputs (RS-274X Gerbers, NC Drill files, and Drill Chart) ready for fabrication.
-* **`BOM.csv`**: Full Bill of Materials.
-* **`Project_Report.pdf`**: Complete academic documentation, including DRC, Net verification, and cross-references.
+* **`CONTENTS.docx`**: Complete academic documentation, including DRC, Net verification, and cross-references.
 
 ## Conclusion
 This project illustrates a successful integration of simple electronic principles to solve a practical everyday problem. By utilizing basic components like NPN transistors and resistors to create a logic inverter, it proves that complex integrated circuits are not always necessary to achieve effective automation in gardening applications.
