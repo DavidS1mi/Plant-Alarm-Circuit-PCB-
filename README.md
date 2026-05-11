@@ -12,11 +12,12 @@ The circuit relies on the interaction between a moisture sensor (two metal probe
 * **Calibration:** The specific detection threshold is calibrated using a 50kΩ potentiometer, ensuring the alarm only sounds when the moisture level is truly inadequate for the specific plant.
 
 ## Visuals
-*(Note: Upload your exported images to your repository and replace the filenames below if necessary)*
 
-**Electrical Schematic** ![Electrical Schematic](./Schematic.png)
+**Electrical Schematic** <img width="745" height="559" alt="image" src="https://github.com/user-attachments/assets/36dc6aa1-5d90-4b86-9a89-c93b2211debb" />
 
-**PCB Assembly & Routing** ![Top Copper Layer](./Top_Copper.png)
+
+**PCB Routing** <img width="1308" height="937" alt="image1" src="https://github.com/user-attachments/assets/5e33f776-4274-4e41-9ff4-09c3caaaa46a" />
+
 
 ## Repository Contents
 * **`/Capture CIS`**: Contains the raw Cadence OrCAD schematic database (`.dsn`) and project files.
