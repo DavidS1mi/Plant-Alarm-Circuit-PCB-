@@ -29,3 +29,8 @@ The circuit relies on the interaction between a moisture sensor (two metal probe
 
 ## Conclusion
 This project illustrates a successful integration of simple electronic principles to solve a practical everyday problem. By utilizing basic components like NPN transistors and resistors to create a logic inverter, it proves that complex integrated circuits are not always necessary to achieve effective automation in gardening applications.
+
+## Credits
+**Institution:** University "POLITEHNICA" of Bucharest, Faculty of Electronics, Telecommunications and Information Technology.
+**Students/Authors:** Dorca Victor, Simionescu David-Daniel (Group 424Ga).
+**Coordinator:** Prof. Dr. Ing. Pantazică Mihaela.
