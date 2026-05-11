@@ -1,0 +1,35 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\cem-1606.olb"
+      (Type "Schematic Library"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\cem-1606.olb")
+      (Select "Design Resources" ".\cem-1606.olb" "CEM-1606"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 216"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1394 52 449")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "3507 877")
+        (Zoom "640"))
+      (Path
+         "C:\USERS\SIMIO\DESKTOP\PROIECT_PLANTALARM\PROIECT_PLANTALARM\CEM-1606\CEM-1606.OLB")
+      (Package "CEM-1606")))
+  (MPSSessionName "simio"))

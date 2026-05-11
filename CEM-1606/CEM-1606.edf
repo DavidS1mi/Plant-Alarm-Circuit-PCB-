@@ -1,0 +1,188 @@
+
+(EDIF
+  (rename CEM_45_1606 "CEM-1606")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 08 15 20 03 35)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename CEM_45_1606 "CEM-1606")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename CEM_45_1606 "CEM-1606")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "LS")
+          (property (rename VALUE "Value") (string "CEM-1606"))
+          (port
+            (rename N "N")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "N")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename P "P")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "P")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -2500 -20000) (pt 7500 20000)))
+            (portImplementation
+              (name P)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 20000)
+                    (pt 0 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name N)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 -20000)
+                    (pt 0 -10000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -2500 5000) (pt 0 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 5000) (pt 2500 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 5000) (pt 2500 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 -5000) (pt 0 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -5000) (pt -2500 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -2500 -5000) (pt -2500 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 5000) (pt 7500 12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 12500) (pt 7500 -12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 -12500) (pt 2500 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 5000) (pt 0 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -5000) (pt 0 -10000)))
+            )
+            (annotate
+              (stringDisplay "+"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -7523 5015))
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -15059 35137))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -15035 -45110))
+              )
+            )
+            (annotate
+              (stringDisplay "-"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -7519 -10003))
+                )
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "CUI_CEM-1606"))
+          )
+        )
+      )
+    )
+  )
+)
